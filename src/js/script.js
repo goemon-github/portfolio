@@ -1,6 +1,12 @@
 "use strict";
-function add(x, y) {
-    return x + y;
+const followerEl = document.getElementById('follower');
+function follower(target) {
+    document.addEventListener('mousemove', (e) => {
+        let mouseX = e.pageX;
+        let mouseY = e.pageY;
+        if (target != null) {
+            target.style.transform = `translate(${mouseX}px, ${mouseY}px)`;
+        }
+    });
 }
-let num = add(1, 2);
-console.log('add', num);
+follower(followerEl);

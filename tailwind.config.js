@@ -1,11 +1,18 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
-          "./src/**/*.{js}",
-          "./index.html",
+          "./public/src/js/**/*.js",
+          "./public/index.html",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: [ "Noto Sans JP"]
+      },
+      scale:{
+        '200': '2.0'
+      }
+    },
   },
   plugins: [],
 }
