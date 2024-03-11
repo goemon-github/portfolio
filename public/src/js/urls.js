@@ -1,4 +1,4 @@
 const urls = {
-    'jsonUrl': '../../data/portfolio.json',
+    'jsonUrl': '/public/assets/data/portfolio.json',
 };
 export default urls;
