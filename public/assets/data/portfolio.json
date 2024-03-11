@@ -5,7 +5,7 @@
       "summary": "ブラックジャック、ポーカー、戦争、スピードが遊べるカードゲーム",
       "content": "例文: CardGameは共同開発で作成したアプリです。ユーザーはブラックジャック、ポーカー、戦争、スピードの4種類のゲームが遊べます。",
       "source": "https://cardgame-rec.vercel.app/",
-      "thumbnail": "/public/assets/image/portfolio_cardgame.png",
+      "thumbnail": "/assets/image/portfolio_cardgame.png",
       "teckStack": {
         "language": "TypeScript React.js"
     },

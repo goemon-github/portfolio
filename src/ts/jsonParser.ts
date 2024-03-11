@@ -6,6 +6,9 @@ async function jsonParser(url: string): Promise<any>{
     const json = await  responce.json();
 
     return json;
+
+    
+
 }
 
 export default jsonParser;
